@@ -35,7 +35,6 @@ pub fn build() {
     println!("cargo:rustc-link-lib=framework=AppKit");
 
     let builder = bindgen::Builder::default()
-        .rustfmt_bindings(true)
         .header_contents(
             "NSWorkspace.h",
             "

@@ -24,6 +24,7 @@ pub const kCFNumberSInt32Type: CFNumberType = 3;
 #[allow(non_upper_case_globals)]
 pub const kCFNumberSInt64Type: CFNumberType = 4;
 
+#[allow(dead_code)]
 #[derive(Debug)]
 enum DictEntryValue {
     _Number(i64),
